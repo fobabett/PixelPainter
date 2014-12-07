@@ -79,10 +79,10 @@ button {
   float: right;
   box-sizing: border-box;
   width: 70%;
-  background-color: green;
 }
 
 #pixel_grid {
   border: 5px solid pink;
   height: 350px;
+  background-color: #FFFFFF;
 }

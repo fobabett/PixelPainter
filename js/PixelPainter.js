@@ -32,11 +32,12 @@ $(document).ready(function () {
     });
    // ERASE EVENT LISTENER
    $('button#erase').on('click', function() {
-    console.log('erase bro');
+    console.log('erase clicked');
    });
    // CLEAR EVENT LISTENER
    $('button#clear').on('click', function() {
-    console.log('clear bro');
+    $('#pixel_grid').css('backgroundColor', '#FFFFFF');
+    console.log('clear clicked');
    });
 
   function pixelPainter(width, height) {
