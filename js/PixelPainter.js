@@ -54,6 +54,9 @@ $(document).ready(function () {
     // ERASE EVENT LISTENER
     $('button#erase').on('click', function() {
       console.log('erase clicked');
+      $('.grid_cells').on('click', function() {
+        $(this).css('backgroundColor', '#FFFFFF');
+      });
     });
 
     // CLEAR EVENT LISTENER
