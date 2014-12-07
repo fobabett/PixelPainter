@@ -66,6 +66,7 @@ table {
   border: 5px solid green;
   width: auto;
   height: 200px;
+  background-color: purple;
 }
 
 button {
@@ -78,6 +79,7 @@ button {
   float: right;
   box-sizing: border-box;
   width: 70%;
+  background-color: green;
 }
 
 #pixel_grid {

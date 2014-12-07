@@ -19,10 +19,17 @@ $(document).ready(function () {
     id: 'pixel_grid',
     text: 'PIXEL GRID THING HERE'
    }).appendTo('#artboard');
-   // COLOR PICKER EVENT LISTENER
-   $('#color_picker').on('click', function() {
-    console.log('color picker');
-   });
+   // COLOR PICKER TO GRID
+    $("#color_picker").click(function(){
+      var $array = ['background-color'];
+      var $this = $(this);
+      $.each( $array , function(item, value){
+        $('#pixel_grid').on('click', function() {
+
+          $("#pixel_grid").css(value, $this.css(value));
+        });
+      });
+    });
    // ERASE EVENT LISTENER
    $('button#erase').on('click', function() {
     console.log('erase bro');
