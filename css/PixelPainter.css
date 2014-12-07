@@ -78,6 +78,241 @@ table {
 }
 
 .cells:first-child {
+  background-color: #5D3600;
+}
+
+.cells:first-child + div {
+  background-color: #8C5100;
+}
+
+.cells:first-child + div + div{
+  background-color: #C47100;
+}
+
+.cells:first-child + div + div + div {
+  background-color: #F99000;
+}
+
+.cells:first-child + div + div + div + div {
+  background-color: #FCCB89;
+}
+
+.cells:first-child + div + div + div + div + div {
+  background-color: #FDE5C6;
+}
+
+.cells:first-child + div + div + div + div + div + div{
+  background-color: #660000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div {
+  background-color: #940000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div {
+  background-color: #C00000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div {
+  background-color: #F40000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div {
+  background-color: #F88E8F;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FBC8C9;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #7D006C;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #A70092;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #A70092;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #CA00AF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #F200D2;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #F789EA;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FBC6F6;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #380070;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #4B0097;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #6500C7;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #8600FF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div{
+  background-color: #C488FF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #C488FF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #E1C6FF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #000097;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #0000D3;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #0000D3;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #126FFF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #93BBFF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #CADEFF;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #196200;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #29A000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #36D000;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #44FF00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #9DFF83;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #CEFFC4;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #799400;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #9FC300;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #CFFE00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #EAFF00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #F5FF82;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FAFFC3;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FBBA00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FDCD00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FEE100;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FFFF00;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FFFF9D;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #FFFFC3;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #424242;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #676767;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #989898;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #C5C5C5;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: red;
+}
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #C5C5C5;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: #C5C5C5;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: red;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  background-color: red;
+}
+
+.cells:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
   background-color: red;
 }
 

@@ -48,6 +48,9 @@ $(document).ready(function () {
       });
     });
 
+    // ADD COLORS TO COLOR PICKER
+    // todo
+
     // ERASE EVENT LISTENER
     $('button#erase').on('click', function() {
       console.log('erase clicked');
