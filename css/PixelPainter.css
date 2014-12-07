@@ -319,6 +319,9 @@ table {
 button {
   display: block;
   margin: 0 auto;
+  color: #FFFFFF;
+  background-color: #4FB7E1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 #artboard {
