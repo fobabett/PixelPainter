@@ -55,6 +55,41 @@ table {
 }
 
 /*GEN STYLES*/
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-smooth: never;
+}
+
+span#p {
+  color: #B5FF00;
+}
+
+span#a {
+  color: #FAAD00;
+}
+
+span#i {
+  color: #F300B1;
+}
+
+span#n {
+  color: #9F00FF;
+}
+
+span#t {
+  color: #24A6FF;
+}
+
+span#e {
+  color: #B5FF00;
+}
+
+span#r {
+  color: #FAAD00;
+}
+
 #controls {
   /*border: 5px solid red;*/
   float: left;
