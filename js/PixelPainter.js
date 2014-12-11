@@ -6,7 +6,7 @@ $(document).ready(function () {
       id: 'color_picker'
     }).appendTo('#controls');
     // GRID FOR COLOR PICKER
-    for (var j = 0; j < 10; j++) {
+    for (var j = 0; j < 10; j++) { //thought this would make a grid 10 by 6
       for(var i=0; i<6; i++) {
         $('<div></div>', {
           class: 'cells'
