@@ -5,14 +5,41 @@ $(document).ready(function () {
     $('<div></div>', {
       id: 'color_picker'
     }).appendTo('#controls');
-    // GRID FOR COLOR PICKER
-    for (var j = 0; j < 10; j++) { //thought this would make a grid 10 by 6
-      for(var i=0; i<6; i++) {
-        $('<div></div>', {
-          class: 'cells'
-        }).appendTo('#color_picker');
-      }
-    };
+
+     $('<div></div>', {
+      id: 'red_paint',
+      class: 'paint'
+    }).appendTo('#color_picker');
+    $('<div></div>', {
+      id: 'green_paint',
+      class: 'paint'
+    }).appendTo('#color_picker');
+    $('<div></div>', {
+      id: 'blue_paint',
+      class: 'paint'
+    }).appendTo('#color_picker'); 
+    $('<div></div>', {
+      id: 'yellow_paint',
+      class: 'paint'
+    }).appendTo('#color_picker'); 
+    $('<div></div>', {
+      id: 'orange_paint',
+      class: 'paint'
+    }).appendTo('#color_picker'); 
+    $('<div></div>', {
+      id: 'purple_paint',
+      class: 'paint'
+    }).appendTo('#color_picker'); 
+    $('<div></div>', {
+      id: 'black_paint',
+      class: 'paint'
+    }).appendTo('#color_picker'); 
+    $('<div></div>', {
+      id: 'paint-brush-container'
+    }).appendTo('#controls'); 
+    $('<img src="../images/paint-brush.png"></img>', {
+      id: 'paint_brush'
+    }).appendTo('#paint-brush-container');    
 
     $('<button></button>', {
       id: 'erase',
@@ -28,17 +55,19 @@ $(document).ready(function () {
       id: 'pixel_grid'
     }).appendTo('#artboard');
 
-    // GRID FOR ARTBOARD
     for (var k = 0; k < height; k++) {
+      $('<div>', {
+        class: 'grid_cells row'
+      });
       for(var l=0; l<width; l++) {
-        $('<div></div>', {
-          class: 'grid_cells'
+        $('<div>', {
+          class: 'grid_cells col'
         }).appendTo('#pixel_grid');
+        $('.grid_cells.row').appendTo('.grid_cells.col');
       }
     };
 
-    // COLOR PICKER TO GRID
-    $(".cells").click(function(){
+    $(".paint").click(function(){
       var $array = ['background-color'];
       var $this = $(this);
       $.each( $array , function(item, value){
@@ -48,10 +77,6 @@ $(document).ready(function () {
       });
     });
 
-    // ADD COLORS TO COLOR PICKER
-    // todo
-
-    // ERASE EVENT LISTENER
     $('button#erase').on('click', function() {
       console.log('erase clicked');
       $('.grid_cells').on('click', function() {
@@ -59,11 +84,10 @@ $(document).ready(function () {
       });
     });
 
-    // CLEAR EVENT LISTENER
     $('button#clear').on('click', function() {
       $('.grid_cells').css('backgroundColor', '#FFFFFF');
       console.log('clear clicked');
     });
-  }// END PIXELPAINTE7
+  }
   var pixelPainter = PixelPainter(16,14);
-}); // END
+}); 
