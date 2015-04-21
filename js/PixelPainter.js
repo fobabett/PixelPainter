@@ -37,9 +37,6 @@ $(document).ready(function () {
     $('<div></div>', {
       id: 'paint-brush-container'
     }).appendTo('#controls'); 
-    $('<img src="../images/paint-brush.png"></img>', {
-      id: 'paint_brush'
-    }).appendTo('#paint-brush-container');    
 
     $('<button></button>', {
       id: 'erase',
@@ -56,14 +53,10 @@ $(document).ready(function () {
     }).appendTo('#artboard');
 
     for (var k = 0; k < height; k++) {
-      $('<div>', {
-        class: 'grid_cells row'
-      });
       for(var l=0; l<width; l++) {
-        $('<div>', {
-          class: 'grid_cells col'
+        $('<div></div>', {
+          class: 'grid_cells row'
         }).appendTo('#pixel_grid');
-        $('.grid_cells.row').appendTo('.grid_cells.col');
       }
     };
 
@@ -89,5 +82,5 @@ $(document).ready(function () {
       console.log('clear clicked');
     });
   }
-  var pixelPainter = PixelPainter(16,14);
+  var pixelPainter = PixelPainter(100,10);
 }); 
